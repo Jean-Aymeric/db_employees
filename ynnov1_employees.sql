@@ -1,3 +1,5 @@
+USE employees;
+DROP VIEW IF EXISTS ynnov1_employees;
 CREATE VIEW ynnov1_employees AS
 SELECT employees.emp_no,
        employees.birth_date,
